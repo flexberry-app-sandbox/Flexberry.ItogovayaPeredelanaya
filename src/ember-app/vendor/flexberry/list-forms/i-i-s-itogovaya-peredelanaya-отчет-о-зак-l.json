@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-peredelanaya-отчет-о-зак-e",
+  "editForm": "i-i-s-itogovaya-peredelanaya-отчет-о-зак-e",
+  "external": false,
+  "caption": "Отчет о заказах",
+  "name": "IISItogovaya_peredelanayaОтчетОЗакL",
+  "className": "ОтчетОЗакL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-peredelanaya-отчет-о-зак",
+      "modelProjection": "ОтчетОЗакL"
+    }
+  ]
+}

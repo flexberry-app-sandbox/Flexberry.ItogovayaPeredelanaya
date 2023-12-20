@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-peredelanaya-заказы-покуп-e",
+  "editForm": "i-i-s-itogovaya-peredelanaya-заказы-покуп-e",
+  "external": false,
+  "caption": "Заказы покупателей",
+  "name": "IISItogovaya_peredelanayaЗаказыПокупL",
+  "className": "ЗаказыПокупL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-peredelanaya-заказы-покуп",
+      "modelProjection": "ЗаказыПокупL"
+    }
+  ]
+}

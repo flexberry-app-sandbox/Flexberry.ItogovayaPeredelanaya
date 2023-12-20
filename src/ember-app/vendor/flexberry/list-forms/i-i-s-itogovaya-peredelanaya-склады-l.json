@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-peredelanaya-склады-e",
+  "editForm": "i-i-s-itogovaya-peredelanaya-склады-e",
+  "external": false,
+  "caption": "Склады",
+  "name": "IISItogovaya_peredelanayaСкладыL",
+  "className": "СкладыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-peredelanaya-склады",
+      "modelProjection": "СкладыL"
+    }
+  ]
+}

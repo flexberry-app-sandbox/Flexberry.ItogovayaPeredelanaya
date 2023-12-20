@@ -1,0 +1,4 @@
+import IISItogovaya_peredelanayaЗаказыПокупEController from '../i-i-s-itogovaya-peredelanaya-заказы-покуп-e';
+
+var IISItogovaya_peredelanayaЗаказыПокупENewController = IISItogovaya_peredelanayaЗаказыПокупEController;
+export default IISItogovaya_peredelanayaЗаказыПокупENewController;

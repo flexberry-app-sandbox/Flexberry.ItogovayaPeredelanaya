@@ -1,0 +1,130 @@
+﻿{
+  "applicationCaption": "Itogovaya_peredelanaya",
+  "applicationTitle": "Itogovaya_peredelanaya",
+  "items": [
+    {
+      "link": null,
+      "menuName": "автоматизация-закупок",
+      "caption": "Автоматизация закупок",
+      "title": "Автоматизация закупок",
+      "children": [
+        {
+          "link": null,
+          "menuName": "справочники",
+          "caption": "Справочники",
+          "title": "Справочники",
+          "children": [
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-единицы-измер-l",
+              "menuName": null,
+              "caption": "Единицы измерения",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-менеджер-l",
+              "menuName": null,
+              "caption": "Менеджер",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-контрагенты-l",
+              "menuName": null,
+              "caption": "Контрагенты",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-организации-l",
+              "menuName": null,
+              "caption": "Организации",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-сотрудники-l",
+              "menuName": null,
+              "caption": "Сотрудники",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-склады-l",
+              "menuName": null,
+              "caption": "Склады",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-клиенты-l",
+              "menuName": null,
+              "caption": "Клиенты",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-должности-l",
+              "menuName": null,
+              "caption": "Должности",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-номенклатура-l",
+              "menuName": null,
+              "caption": "Номенклатура",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "документы",
+          "caption": "Документы",
+          "title": "Документы",
+          "children": [
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-план-закупок-l",
+              "menuName": null,
+              "caption": "План закупок",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-заказы-покуп-l",
+              "menuName": null,
+              "caption": "Заказы покупупателей",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-заказ-пост-l",
+              "menuName": null,
+              "caption": "Заказы поставщику",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "отчеты",
+          "caption": "Отчеты",
+          "title": "Отчеты",
+          "children": [
+            {
+              "link": "i-i-s-itogovaya-peredelanaya-отчет-о-зак-l",
+              "menuName": null,
+              "caption": "Отчет о закупках",
+              "title": "",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

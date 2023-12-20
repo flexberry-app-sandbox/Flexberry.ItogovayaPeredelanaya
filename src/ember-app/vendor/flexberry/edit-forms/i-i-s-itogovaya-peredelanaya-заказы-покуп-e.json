@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиенты",
+      "projection": "КлиентыL",
+      "detailModelName": null
+    },
+    {
+      "master": "номенклатура",
+      "displayAttributeName": "номенклатура",
+      "required": true,
+      "relationName": "ТЧЗаказПок.Номенклатура",
+      "projection": "НоменклатураL",
+      "detailModelName": "i-i-s-itogovaya-peredelanaya-т-ч-заказ-пок"
+    }
+  ],
+  "external": false,
+  "caption": "Заказы покупателей",
+  "name": "IISItogovaya_peredelanayaЗаказыПокупE",
+  "className": "ЗаказыПокупE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-peredelanaya-заказы-покуп",
+      "modelProjection": "ЗаказыПокупE"
+    }
+  ]
+}

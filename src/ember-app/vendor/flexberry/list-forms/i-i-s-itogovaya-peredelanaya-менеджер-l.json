@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-peredelanaya-менеджер-e",
+  "editForm": "i-i-s-itogovaya-peredelanaya-менеджер-e",
+  "external": false,
+  "caption": "Менеджер",
+  "name": "IISItogovaya_peredelanayaМенеджерL",
+  "className": "МенеджерL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-peredelanaya-менеджер",
+      "modelProjection": "МенеджерL"
+    }
+  ]
+}

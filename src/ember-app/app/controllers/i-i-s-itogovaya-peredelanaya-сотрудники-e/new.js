@@ -1,0 +1,4 @@
+import IISItogovaya_peredelanayaСотрудникиEController from '../i-i-s-itogovaya-peredelanaya-сотрудники-e';
+
+var IISItogovaya_peredelanayaСотрудникиENewController = IISItogovaya_peredelanayaСотрудникиEController;
+export default IISItogovaya_peredelanayaСотрудникиENewController;

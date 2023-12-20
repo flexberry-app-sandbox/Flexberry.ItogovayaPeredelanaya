@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-peredelanaya-сотрудники-e",
+  "editForm": "i-i-s-itogovaya-peredelanaya-сотрудники-e",
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISItogovaya_peredelanayaСотрудникиL",
+  "className": "СотрудникиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-peredelanaya-сотрудники",
+      "modelProjection": "СотрудникиL"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+import IISItogovaya_peredelanayaДолжностиEController from '../i-i-s-itogovaya-peredelanaya-должности-e';
+
+var IISItogovaya_peredelanayaДолжностиENewController = IISItogovaya_peredelanayaДолжностиEController;
+export default IISItogovaya_peredelanayaДолжностиENewController;

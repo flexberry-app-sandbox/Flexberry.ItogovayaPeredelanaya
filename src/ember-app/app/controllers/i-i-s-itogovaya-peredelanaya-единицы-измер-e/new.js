@@ -1,0 +1,4 @@
+import IISItogovaya_peredelanayaЕдиницыИзмерEController from '../i-i-s-itogovaya-peredelanaya-единицы-измер-e';
+
+var IISItogovaya_peredelanayaЕдиницыИзмерENewController = IISItogovaya_peredelanayaЕдиницыИзмерEController;
+export default IISItogovaya_peredelanayaЕдиницыИзмерENewController;

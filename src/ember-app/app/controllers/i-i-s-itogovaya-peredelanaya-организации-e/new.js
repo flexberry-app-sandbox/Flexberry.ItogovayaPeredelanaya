@@ -1,0 +1,4 @@
+import IISItogovaya_peredelanayaОрганизацииEController from '../i-i-s-itogovaya-peredelanaya-организации-e';
+
+var IISItogovaya_peredelanayaОрганизацииENewController = IISItogovaya_peredelanayaОрганизацииEController;
+export default IISItogovaya_peredelanayaОрганизацииENewController;

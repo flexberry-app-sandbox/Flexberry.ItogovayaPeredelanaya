@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-peredelanaya-клиенты-e",
+  "editForm": "i-i-s-itogovaya-peredelanaya-клиенты-e",
+  "external": false,
+  "caption": "Клиенты",
+  "name": "IISItogovaya_peredelanayaКлиентыL",
+  "className": "КлиентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-peredelanaya-клиенты",
+      "modelProjection": "КлиентыL"
+    }
+  ]
+}

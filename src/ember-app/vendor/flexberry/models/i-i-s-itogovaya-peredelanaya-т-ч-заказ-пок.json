@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISItogovaya_peredelanayaТЧЗаказПок",
+  "modelName": "i-i-s-itogovaya-peredelanaya-т-ч-заказ-пок",
+  "className": "ТЧЗаказПок",
+  "nameSpace": "IIS.Itogovaya_peredelanaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "номенклатура",
+      "relatedTo": "i-i-s-itogovaya-peredelanaya-номенклатура",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заказыПокуп",
+      "relatedTo": "i-i-s-itogovaya-peredelanaya-заказы-покуп",
+      "inverse": "тЧЗаказПок"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧЗаказПокE",
+      "modelName": "i-i-s-itogovaya-peredelanaya-т-ч-заказ-пок",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Номенклатура",
+          "lookupValueField": "номенклатура",
+          "relationName": "Номенклатура",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номенклатура",
+              "caption": "Номенклатура",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Номенклатура",
+          "name": "номенклатура",
+          "relatedTo": "i-i-s-itogovaya-peredelanaya-номенклатура",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

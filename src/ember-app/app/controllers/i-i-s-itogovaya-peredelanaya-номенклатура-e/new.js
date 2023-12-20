@@ -1,0 +1,4 @@
+import IISItogovaya_peredelanayaНоменклатураEController from '../i-i-s-itogovaya-peredelanaya-номенклатура-e';
+
+var IISItogovaya_peredelanayaНоменклатураENewController = IISItogovaya_peredelanayaНоменклатураEController;
+export default IISItogovaya_peredelanayaНоменклатураENewController;

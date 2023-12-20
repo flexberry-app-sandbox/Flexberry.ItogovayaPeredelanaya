@@ -1,0 +1,4 @@
+import IISItogovaya_peredelanayaПланЗакупокEController from '../i-i-s-itogovaya-peredelanaya-план-закупок-e';
+
+var IISItogovaya_peredelanayaПланЗакупокENewController = IISItogovaya_peredelanayaПланЗакупокEController;
+export default IISItogovaya_peredelanayaПланЗакупокENewController;

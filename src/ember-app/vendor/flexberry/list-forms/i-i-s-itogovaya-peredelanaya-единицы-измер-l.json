@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-peredelanaya-единицы-измер-e",
+  "editForm": "i-i-s-itogovaya-peredelanaya-единицы-измер-e",
+  "external": false,
+  "caption": "Единицы измерения",
+  "name": "IISItogovaya_peredelanayaЕдиницыИзмерL",
+  "className": "ЕдиницыИзмерL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-peredelanaya-единицы-измер",
+      "modelProjection": "ЕдиницыИзмерL"
+    }
+  ]
+}

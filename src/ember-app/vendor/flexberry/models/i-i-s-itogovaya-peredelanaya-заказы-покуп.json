@@ -1,0 +1,141 @@
+﻿{
+  "name": "IISItogovaya_peredelanayaЗаказыПокуп",
+  "modelName": "i-i-s-itogovaya-peredelanaya-заказы-покуп",
+  "className": "ЗаказыПокуп",
+  "nameSpace": "IIS.Itogovaya_peredelanaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "клиенты",
+      "relatedTo": "i-i-s-itogovaya-peredelanaya-клиенты",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "тЧЗаказПок",
+      "relatedTo": "i-i-s-itogovaya-peredelanaya-т-ч-заказ-пок",
+      "inverse": "заказыПокуп"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ЗаказыПокупE",
+      "modelName": "i-i-s-itogovaya-peredelanaya-заказы-покуп",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Клиенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО клиента",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Клиенты",
+          "name": "клиенты",
+          "relatedTo": "i-i-s-itogovaya-peredelanaya-клиенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ТЧЗаказПокE",
+          "caption": "заказ покупателя",
+          "name": "тЧЗаказПок",
+          "relatedTo": "i-i-s-itogovaya-peredelanaya-т-ч-заказ-пок",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ЗаказыПокупL",
+      "modelName": "i-i-s-itogovaya-peredelanaya-заказы-покуп",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Клиенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "ФИО",
+          "name": "клиенты",
+          "relatedTo": "i-i-s-itogovaya-peredelanaya-клиенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

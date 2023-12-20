@@ -1,0 +1,4 @@
+import IISItogovaya_peredelanayaКонтрагентыEController from '../i-i-s-itogovaya-peredelanaya-контрагенты-e';
+
+var IISItogovaya_peredelanayaКонтрагентыENewController = IISItogovaya_peredelanayaКонтрагентыEController;
+export default IISItogovaya_peredelanayaКонтрагентыENewController;

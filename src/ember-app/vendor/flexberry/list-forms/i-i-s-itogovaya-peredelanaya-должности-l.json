@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itogovaya-peredelanaya-должности-e",
+  "editForm": "i-i-s-itogovaya-peredelanaya-должности-e",
+  "external": false,
+  "caption": "Должности",
+  "name": "IISItogovaya_peredelanayaДолжностиL",
+  "className": "ДолжностиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itogovaya-peredelanaya-должности",
+      "modelProjection": "ДолжностиL"
+    }
+  ]
+}
