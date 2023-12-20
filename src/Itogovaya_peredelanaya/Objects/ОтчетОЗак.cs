@@ -485,6 +485,18 @@ namespace IIS.Itogovaya_peredelanaya
             }
         }
         
+        // *** Start programmer edit section *** (ОтчетОЗак.Сформировать CustomAttributes)
+
+        // *** End programmer edit section *** (ОтчетОЗак.Сформировать CustomAttributes)
+        [ICSSoft.STORMNET.AccessType(ICSSoft.STORMNET.AccessType.none)]
+        public virtual void Сформировать()
+        {
+            // *** Start programmer edit section *** (ОтчетОЗак.Сформировать method implementation)
+
+            return;
+            // *** End programmer edit section *** (ОтчетОЗак.Сформировать method implementation)
+        }
+        
         /// <summary>
         /// Class views container.
         /// </summary>

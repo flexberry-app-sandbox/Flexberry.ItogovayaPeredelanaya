@@ -73,6 +73,18 @@ namespace IIS.Itogovaya_peredelanaya
         // *** End programmer edit section *** (ЗаказПост CustomMembers)
 
         
+        // *** Start programmer edit section *** (ЗаказПост.Заполнить CustomAttributes)
+
+        // *** End programmer edit section *** (ЗаказПост.Заполнить CustomAttributes)
+        [ICSSoft.STORMNET.AccessType(ICSSoft.STORMNET.AccessType.none)]
+        public virtual void Заполнить()
+        {
+            // *** Start programmer edit section *** (ЗаказПост.Заполнить method implementation)
+
+            return;
+            // *** End programmer edit section *** (ЗаказПост.Заполнить method implementation)
+        }
+        
         /// <summary>
         /// Class views container.
         /// </summary>
